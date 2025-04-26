@@ -1,9 +1,9 @@
 <div class="dashboard">
   <div class="profile-card">
-    <img [src]="profile().picture" alt="Profile Picture" class="profile-picture" />
-    <h2>Welcome, {{ profile().given_name }}!</h2>
-    <p><strong>Full Name:</strong> {{ profile().name }}</p>
-    <p><strong>Email:</strong> {{ profile().email }}</p>
+    <img [src]="profile()?.picture" alt="Profile Picture" class="profile-picture" />
+    <h2>Welcome, {{ profile()?.given_name }}!</h2>
+    <p><strong>Full Name:</strong> {{ profile()?.name }}</p>
+    <p><strong>Email:</strong> {{ profile()?.email }}</p>
   </div>
 
   <div class="actions">
