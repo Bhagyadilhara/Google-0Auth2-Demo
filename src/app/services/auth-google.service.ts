@@ -36,6 +36,7 @@ export class AuthGoogleService {
   }
 
   getProfile() {
+    console.log('getProfile', this.profile());
     return this.profile();
   }
 }
